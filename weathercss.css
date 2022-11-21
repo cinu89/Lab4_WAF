@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://images.hdqwalls.com/download/weather-and-sky-4k-nb-1125x2436.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#div1{
+    margin-bottom : 0px;
+    color:rgb(31, 23, 23);
+    text-shadow: rosybrown;
+    text-shadow: burlywood;
+    /* background-color: #4aa1f3; */
+}
+#heading1{
+    font-size:50px;
+    font-weight:600;
+    text-align: center;
+}
+#heading2{
+    text-align: center; 
+    text-decoration: double;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:maroon;
+}
+#rowDiv{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+input[type="text"]{
+    height: 40px;
+    font-size: 20px;
+}
+#submitWeather{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#WeatherTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px;
+    border-color: #a19494;
+    color:wheat;
+  }
+  
+  #WeatherTable td {
+    border: 1px;
+    padding: 8px;
+    border-color: #a19494;
+  }
+  
+  #WeatherTable tr:nth-child(even){background-color: #a19494;}
+  
+  #WeatherTable tr:hover {background-color: rgb(146, 134, 134);}
+
+  #NextDays {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #CurrentConditions{
+    text-align: center; 
+    text-decoration: double;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:wheat;
+
+  }
+  
+  #NextDays td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #NextDays tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #NextDays tr:hover {background-color: #ddd;}
