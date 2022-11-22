@@ -43,7 +43,8 @@ input[type="text"]{
     width: 50%;
     border: 1px;
     border-color: #a19494;
-    color:wheat;
+    color:white;
+   
   }
   
   #WeatherTable td {
@@ -52,9 +53,14 @@ input[type="text"]{
     border-color: #a19494;
   }
   
-  #WeatherTable tr:nth-child(even){background-color: #a19494;}
+  /* #WeatherTable tr:nth-child(even){background-color: #a19494;} */
   
-  #WeatherTable tr:hover {background-color: rgb(146, 134, 134);}
+  /* #WeatherTable tr:hover {background-color: rgb(146, 134, 134);} */
+#Errormsg{
+    color: red;
+    text-align: center;
+}
+
 
   #NextDays {
     font-family: Arial, Helvetica, sans-serif;
@@ -66,15 +72,42 @@ input[type="text"]{
     text-decoration: double;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:wheat;
+    color:white;
 
   }
   
   #NextDays td {
     border: 1px solid #ddd;
     padding: 8px;
+    color : white;
   }
   
-  #NextDays tr:nth-child(even){background-color: #f2f2f2;}
+  
+  /* #NextDays tr:nth-child(even){background-color: #f2f2f2;} */
   
   #NextDays tr:hover {background-color: #ddd;}
+  @media only screen and (max-device-width: 480px) {
+    div#wrapper {
+        width: 400px;
+    }
+
+    div#header {
+        background-image: url(https://cdn5.f-cdn.com/contestentries/329593/18088126/5699feb841990_thumb900.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    div#header h1 {
+        font-size: 140%;
+    }
+
+    #content {
+        float: none;
+        width: 100%;
+    }
+
+    #navigation {
+        float:none;
+        width: auto;
+    }
+}

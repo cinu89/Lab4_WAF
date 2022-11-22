@@ -1,4 +1,4 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +17,8 @@
     <h2 id="heading1"> DAILY WEATHER FORECAST </h2>
 </div>   
 
+<h4 id="errormsg"></h4>
+
 <div class="container">
     <div class="row" style="margin-bottom:20px;">
         <h3 id="heading2">Enter City Name</h3>
@@ -25,6 +27,7 @@
     <div class="row form-group form-inline" id="rowDiv">
         <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
         <button id="submitWeather" onclick="loadDoc()" class="btn btn-primary">Search City</button>
+        <button id="geoWeather" onclick="loadgeo()" class="btn btn-primary">Current Location</button>
     </div>
     <h2 id="Region"></h2>
     <table id="WeatherTable">
@@ -44,7 +47,7 @@
         <td id="wind">Wind</td><td id="windvalue"></td> 
     </tr>
     <tr>
-        <td id="comment">Weather Type</td><td id="commentValue"></td> 
+        <td id="comment">Comment</td><td id="commentValue"></td> 
     </tr>
     <tr>
         <img id="icon"></img>
